@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    max-width: 1158px;
     padding-left: 156px;
     padding-right: 156px;
     margin-left: 0;
@@ -108,17 +108,20 @@ section {
 
 .title-section {
     background-color: #2e2f42;
+    justify-content: center;
 }
 
 .page-title {
     font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 107%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #ffffff;
-        margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 48px;
+    display: block;
+    max-width: 496px;
 }
 
 .button {
@@ -203,8 +206,16 @@ section {
     border-bottom-right-radius: 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+
 .list img {
     object-fit: cover;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 .portfolio-section {
     background-color: #ffffff;
