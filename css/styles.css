@@ -225,6 +225,12 @@ ul {
     margin: 0;
     padding-left: 0;
 }
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    column-gap: 48px;
+}
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
