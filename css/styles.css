@@ -12,8 +12,7 @@ body {
 
 .container {
     max-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding: 0 15px;
     margin-left: 0;
     margin-right: 0;
     justify-content: center;
